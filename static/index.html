@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warcaby</title>
+    <script src="libs/tween.umd.js" defer></script>
+    <script src="libs/three.js" defer></script>
+    <script type="module" src="Main.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div id="logs">Waiting for another player
+    </div>
+    <div id="opponentMove">Opponent's turn!</div>
+    <h1 id="gameEnded"></h1>
+    <h6 id="gameEndedMessage">click to play again...</h6>
+    <div id="loginform">
+      <h3>Choose your name</h3>
+      <div class="field">
+        <input type="text" placeholder="username" name="username" />
+      </div>
+      <button id="btnLogin">Play</button>
+      <button id="btnReset">Reset</button>
+    </div>
+    <div id="error"></div>
+    <div id="loginbg"></div>
+    <div id="root"></div>
+  </body>
+</html>
